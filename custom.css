@@ -1,0 +1,220 @@
+/* %%%%%%%%%%%%%%%%%%%%% BASIC ELEMENTS %%%%%%%%%%%%%%%%%%%% */
+body{
+    margin: 0 5% 0 5%;
+    background-size: cover;
+    font-family: sans-serif;
+}
+
+footer{
+    clear: both;
+    background-color: yellow;
+    margin: 5em -4em 0em -4em;
+    padding: 0.5em 2em 0.5em 2em;
+}
+
+header{
+    overflow: auto;
+    margin-left: -4em;
+    margin-right: -4em;
+    padding-right: 2em;
+    padding-left: 2em;
+    background-color: yellow;
+    margin-bottom: 3em;
+}
+
+p{
+    padding: 1em 0 1em 0;
+}
+
+footer p {
+    font-size: 0.5em;
+    background-color: yellow;
+}
+
+section{
+    padding: 2em;
+    width: 40%;  
+}
+
+h4 {
+    margin-bottom: 20em;
+}
+
+.single-title {
+    margin-bottom: 23em;
+}
+
+fieldset {
+    border: none;
+}
+
+img {
+    width: 11em;
+    height: 5em;
+    margin-left: 1.5em;
+    padding-bottom: .3em;
+    margin-top: -.3em;
+}
+
+/*------------------------   classes           ------------------------------ */
+
+.float_right {
+    float: right;
+    margin-left: 1em;
+}
+
+.float_left {
+    float: left;
+    margin: 1em 1em 1em 0;
+    padding: 0.5em;
+}
+
+.small {
+    width: 150px;
+}
+
+.errors {
+    color: red;
+    list-style-type: none;
+}
+
+/*------------------------   header section only  ------------------------------ */
+
+header h1 {
+    float: left;
+}
+
+nav {
+    float: right;
+}
+
+/*------------------------   nav section only  ------------------------------ */
+
+nav ol li{
+    display: inline-block;
+    list-style-type: none;
+    padding-right: 2em;
+    margin-top: 1em;
+    margin-right: 2em;
+}
+
+nav ol li a {
+    text-decoration: none;
+    color: black;
+}
+
+nav ol li a:hover {
+    color: white;
+}
+
+/*------------------------   table page  only  ------------------------------ */
+
+#table aside{
+    height: 600px; 
+    float: left; 
+    overflow: auto; 
+    margin-left: 2em;            
+}
+
+#table table{
+    border: medium #000080 solid;
+    border-collapse: collapse;
+    float: right;
+}
+
+#table td {
+    border: thin #000080 solid;
+    border-collapse: collapse;
+}
+
+#table th{
+    text-align: left;
+}
+
+body p.noticeMe{
+    background-color: #cc0033;
+    color: wheat;
+}
+
+#dbtables {
+    background-color: white;
+    border: thin solid black;
+    width: 40%;
+}
+
+#selectedTable {
+    float: right;
+    margin-right: 3em;
+    background-color: white;
+    border: thin solid black;
+}
+
+/*------------------------   index page  only  ------------------------------ */
+
+#books {
+
+}
+
+#books li {
+    list-style-type: none;
+}
+
+#books > li {
+    background-color: yellow;
+    border: thin solid black;
+    border-radius: 15px;
+    display: inline-block;
+    width: 35%;
+    margin-right: 3em;
+    margin-bottom: 2.5em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+#items li ul {
+    list-style-type: none;
+}
+
+/*------------------------   upload page  only  ------------------------------ */
+
+#upload input {
+    margin-bottom: 1em;
+}
+
+/*------------------------   search page  only  ------------------------------ */
+
+input {
+    margin-bottom: 1em;
+}
+
+select {
+    margin-bottom: 1em;
+}
+
+#failed-search {
+    margin-bottom: 25em;
+}
+
+#search #books {
+    margin-bottom: 14em;
+}
+
+/*------------------------   search page  only  ------------------------------ */
+#search #btnSubmit {
+    margin-bottom: 7em;
+}
+
+/*------------------------   view books page  only  ------------------------------ */
+#view-book #books {
+    margin-bottom: 12em;
+}
+
+/*------------------------   log-out page  only  ------------------------------ */
+#log-out input {
+    margin-bottom: 28em;
+}
+
+/*------------------------   my-uploads  only  ------------------------------ */
+#my-uploads #books {
+    margin-bottom: 13em;
+}
